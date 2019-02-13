@@ -7,13 +7,16 @@
 
 * Different meetups are more or less popular.
 
+
 *HYPOTHESIS*
 
 Categories that are less popular will have higher retention rates. (Correlation)
 
+
 *NULL HYPOTHESIS*
 
 There will be no difference in retention rates per category.
+
 
 *METHODS*
 
