@@ -1,7 +1,11 @@
-* There are nearly 350,000 Meetup groups globally. 
-* (How many are public?)
+
+*BACKGROUND*
+
+* There are nearly 350,000 Meetup groups globally. Around 82% of their information is public.
+
 * Each Meetup group has had some number of events in the past, and each of those has been attended by some individuals. 
-* I want to calculate each Meetup groups' retention rate, not popularity rate. One method: Simply count the average number of events each member attended. 
+
+* Different meetups are more or less popular.
 
 *HYPOTHESIS*
 
@@ -10,6 +14,8 @@ Categories that are less popular will have higher retention rates. (Correlation)
 *NULL HYPOTHESIS*
 
 There will be no difference in retention rates per category.
+
+*METHODS*
 
 1. Calculate retention rate from one event to the next, take average from each group.
 
