@@ -16,7 +16,7 @@ collection = db.groups
 events_coll = db.events
 
 def get_all_events(collection):
-    for urlname in groups_not_done:
+    for urlname in groups_not_done[10300:50000]:
         try:
             # First, we need the total number of events for the group
             req = requests.get('https://api.meetup.com/{}/events?\
