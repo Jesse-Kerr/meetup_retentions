@@ -36,4 +36,4 @@ There will be no difference in % returner rates per category.
 4. Inspect whether popularity of category inversely correlates with retention rate.
 
 
-![Categories](Number_per_category.png)
+![Categories](fig/Number_per_category.png)
