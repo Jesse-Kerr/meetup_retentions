@@ -4,7 +4,7 @@ import requests
 import json
 import warnings
 warnings.filterwarnings('ignore')
-key = open('api.txt', 'r').read()
+key = open('src/api.txt', 'r').read()
 
 f = open('groups_not_done.txt', 'r')
 groups_not_done = f.read().replace("'", '').replace(" ", '').split(',')
@@ -12,11 +12,16 @@ f.close()
 
 client = MongoClient('localhost', 27017)
 db = client['meet-ups']
-collection = db.groups
 events_coll = db.events
 
 def get_all_events(collection):
-    for urlname in groups_not_done[10300:50000]:
+        
+    ''' 
+    Download the events for a particular group. If there are more than 200 events, split the request by the dates of 
+    event. Save into meetups.events
+    '''
+
+    for urlname in groups_not_done:
         try:
             # First, we need the total number of events for the group
             req = requests.get('https://api.meetup.com/{}/events?\
@@ -38,5 +43,3 @@ def get_all_events(collection):
                 print('Inserted {} into db.events!'.format(urlname))
         except:
             print("Something went wrong!")
-
-get_all_events(collection)

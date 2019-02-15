@@ -1,6 +1,6 @@
 import numpy as np
 import requests
-key = open('api.txt', 'r').read()
+key = open('src/api.txt', 'r').read()
 
 f = open('new_groups.txt', 'r')
 new_groups_done = f.read().replace('"', '').replace(",", "").splitlines()

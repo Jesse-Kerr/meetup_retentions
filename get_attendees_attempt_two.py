@@ -27,7 +27,7 @@ def create_list_of_groups_per_category():
     return cat_group
         
 hundred_groups_per_cat = create_list_of_groups_per_category()
-return hundred_groups_per_cat
+
 def pull_attendees_for_events_for_group(list_of_groups):
     '''
     For every group, we get all of their events. For every event, we get the list of attendees.
