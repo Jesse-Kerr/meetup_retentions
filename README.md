@@ -42,7 +42,7 @@ There will be no difference in % returner rates per category.
 
 ![number](fig/Number_Samples_Per_category.jpg)
 
-![means](Means_Per_category.jpg)
+![means](fig/Means_Per_category.jpg)
 
 ![distribution](Distribution_of_Career_vs_Tech.jpg)
 
