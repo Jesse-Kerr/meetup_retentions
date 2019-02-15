@@ -17,7 +17,7 @@ Will this average retention rate differ based off of Meetup category?
 
 1. I hypothesize that groups in different Meetup categories will have different percentages of returners. 
 
-2. I also hypothesize that this will be inversely correlated to the 'popularity' of that category, measured either by # of groups in the category or average attendees per meetup event for the group. 
+2. I also hypothesize that this will be inversely correlated to the 'popularity' of that category. In other words, I hypothesize that the more popular a group, the lower its retention. 
 
 *NULL HYPOTHESIS*
 
@@ -25,9 +25,9 @@ There will be no difference in % returner rates per category.
 
 *METHODS*
 
-1. For every event for a meetup group, get a list of the member IDs who RSVP'ed YES to it. Dive the list of members who returned by the list of members who ever attended. 
+1. For a meetup group, create a list of all the people who ever attended one of its events. Select from this list only the members who returned. Divide the length of the returners list by the length of the attenders. 
 
-2. This gives us a binomial distribution, consisting of many Bernoulli trials, each of which ask: Did the event attender return?
+2. Each member can be thought of as a single Bernoulli trial, where success is returning. We thus create a binomial distribution for each group.
 
 2. Take average of the groups for each Meetup category.
 
