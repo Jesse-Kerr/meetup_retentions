@@ -8,3 +8,4 @@ checking-test.py
 categories_in_aws.txt
 attendees_per_event_no_try.py
 dump backup/
+__pycache__

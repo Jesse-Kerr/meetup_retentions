@@ -7,7 +7,7 @@ import warnings
 import time
 from pprint import pprint
 warnings.filterwarnings('ignore')
-key = open('api.txt', 'r').read()
+key = open('src/api.txt', 'r').read()
 
 client = MongoClient()
 db = client['meet-ups']
@@ -26,8 +26,6 @@ def create_list_of_groups_per_category():
         cat_group += [[category, group['group']] for group in cat_cursor]
     return cat_group
         
-hundred_groups_per_cat = create_list_of_groups_per_category()
-
 def pull_attendees_for_events_for_group(list_of_groups):
     '''
     For every group, we get all of their events. For every event, we get the list of attendees.
@@ -61,5 +59,3 @@ def pull_attendees_for_events_for_group(list_of_groups):
                                               'time' : event['local_time'],
                                              'attendees' : ids,
                                              'category_id' : group[0]})
-
-pull_attendees_for_events_for_group(hundred_groups_per_cat[136:])
