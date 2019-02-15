@@ -3,8 +3,6 @@
 
 * There are nearly 350,000 Meetup groups globally. Around 82% of their information is public.
 
-* Each Meetup group has had some number of events in the past, and each of those has been attended by some individuals. 
-
 * The groups are organized into 33 different categories, such as Arts and Culture, Business, or Singles. These categories have different numbers of meetup groups within them.
 
 *HYPOTHESIS*
