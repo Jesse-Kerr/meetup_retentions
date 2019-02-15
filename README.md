@@ -37,3 +37,5 @@ There will be no difference in % returner rates per category.
 
 
 ![Categories](fig/Number_per_category.png)
+
+(fig/API response.png)
