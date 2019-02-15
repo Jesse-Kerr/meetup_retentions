@@ -31,6 +31,6 @@ There will be no difference in % returner rates per category.
 
 2. Take average of the groups for each Meetup category.
 
-3. Do a t-test to compare retention rates per category. Perform Bonferroni correction to correct for multiple comparisons. 
+3. Conduct statistical tests to compare retention rates per category. Perform Bonferroni correction to correct p-values for multiple comparisons. 
 
 4. Inspect whether popularity of category (measured in 3) correlates with retention rate.
