@@ -5,27 +5,24 @@
 
 * Each Meetup group has had some number of events in the past, and each of those has been attended by some individuals. 
 
-* Different meetups are more or less popular.
-
+* The groups are organized into 33 different categories, such as Arts and Culture, Business, or Singles. These categories have different numbers of meetup groups within them.
 
 *HYPOTHESIS*
 
-Categories that are less popular will have higher retention rates. (Correlation)
-
+I hypothesize that groups in different Meetup categories will have different percentages of returners. I also hypothesize that this will be inversely correlated to the 'popularity' of that category, measured either by # of groups in the category or average attendees per meetup event for the group. 
 
 *NULL HYPOTHESIS*
 
-There will be no difference in retention rates per category.
-
+There will be no difference in % returner rates per category.
 
 *METHODS*
 
-1. Calculate retention rate from one event to the next, take average from each group.
+1. For every event for a meetup group, get a list of the member IDs who RSVP'ed YES to it. Combine this into one list, and create a dict for the number of times each member went.
 
-2. Take average of each category.
+2. Divide the list of member IDs by the set of member IDs, thus giving us a binomial distribution of many Bernoulli trials- Did the user come back or not?
 
-3. Measure popularity of each category by either a) Number of meetup groups in category or b) Average number of attendees / event for category.
+2. Take average of the groups for each Meetup category.
 
-4. Do a Z-test or t-test to compare retention rates per category.
+3. Do a t-test to compare retention rates per category. Perform Bonferroni correction to correct for multiple comparisons. 
 
-5. See if popularity of category (measured in 3) correlates with retention rate.
+4. Inspect whether popularity of category (measured in 3) correlates with retention rate.
