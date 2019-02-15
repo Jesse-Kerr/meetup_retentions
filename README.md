@@ -5,6 +5,10 @@
 
 * The groups are organized into 33 different categories, such as Arts and Culture, Business, or Singles. These categories have different numbers of meetup groups within them.
 
+*QUESTION*
+
+Can we calculate the *retention rate* of attendees to a particular Meetup group? Will this average retention rate differ based off of Meetup category?
+
 *HYPOTHESIS*
 
 I hypothesize that groups in different Meetup categories will have different percentages of returners. I also hypothesize that this will be inversely correlated to the 'popularity' of that category, measured either by # of groups in the category or average attendees per meetup event for the group. 
