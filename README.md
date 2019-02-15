@@ -38,4 +38,12 @@ There will be no difference in % returner rates per category.
 
 ![Categories](fig/Number_per_category.png)
 
-(fig/API response.png)
+![API-Response](fig/API response.png)
+
+![number](fig/Number_Samples_Per_category.jpg)
+
+![means](Means_Per_category.jpg)
+
+![distribution](Distribution_of_Career_vs_Tech.jpg)
+
+![t-tests](fig/T-test_Results.png)
