@@ -44,4 +44,6 @@ There will be no difference in % returner rates per category.
 
 ![distribution](Distribution_of_Career_vs_Tech.jpg)
 
+![scatter](fig/Distribution_of_Career_vs_Tech.jpg)
+
 ![t-tests](fig/T-test_Results.png)
