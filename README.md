@@ -9,7 +9,7 @@
 
 Meetup provides plenty of information about how many people attend a particular event. However, I am more interested in whether those people come back.
 
-Can we calculate the *retention rate* of a particular Meetup group? I.e., if I attend an event with this group, will I come back? 
+Can we calculate the *retention rate* of a particular Meetup group? I.e., if I attend an event with this group, am I likely to come back? 
 
 Will this average retention rate differ based off of Meetup category?
 
