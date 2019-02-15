@@ -13,7 +13,9 @@ Will this average retention rate differ based off of Meetup category?
 
 *HYPOTHESIS*
 
-I hypothesize that groups in different Meetup categories will have different percentages of returners. I also hypothesize that this will be inversely correlated to the 'popularity' of that category, measured either by # of groups in the category or average attendees per meetup event for the group. 
+1. I hypothesize that groups in different Meetup categories will have different percentages of returners. 
+
+2. I also hypothesize that this will be inversely correlated to the 'popularity' of that category, measured either by # of groups in the category or average attendees per meetup event for the group. 
 
 *NULL HYPOTHESIS*
 
