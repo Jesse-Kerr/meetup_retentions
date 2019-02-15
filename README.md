@@ -17,9 +17,9 @@ There will be no difference in % returner rates per category.
 
 *METHODS*
 
-1. For every event for a meetup group, get a list of the member IDs who RSVP'ed YES to it. Combine this into one list, and create a dict for the number of times each member went.
+1. For every event for a meetup group, get a list of the member IDs who RSVP'ed YES to it. Create a list of members who returned, and a set of total members who ever attended. 
 
-2. Divide the list of member IDs by the set of member IDs, thus giving us a binomial distribution of many Bernoulli trials- Did the user come back or not?
+2. Divide the list of returners by the total attendees, giving us a binomial distribution of many Bernoulli trials. Each Bernoulli trial is: Did the user come back or not?
 
 2. Take average of the groups for each Meetup category.
 
