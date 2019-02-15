@@ -7,7 +7,7 @@
 
 *QUESTION*
 
-Can we calculate the *retention rate* of attendees to a particular Meetup group? Will this average retention rate differ based off of Meetup category?
+Can we calculate the *retention rate* of a particular Meetup group? Will this average retention rate differ based off of Meetup category?
 
 *HYPOTHESIS*
 
