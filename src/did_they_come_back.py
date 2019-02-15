@@ -32,4 +32,3 @@ def did_they_come_back():
                                          'Percent_Return' : percent_return,
                                          'Category_ID': category_id})
 
-did
